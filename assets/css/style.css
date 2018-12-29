@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: pink;
+}
+
+.container {
+    margin-top: 15%;
+}
+
+h1 {
+    font-family: "gothic-open-shaded", sans-serif;
+    font-size: 100px;
+}
+
+li, a {
+    font-family: "forma-djr-deck", sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a:hover {
+    border-bottom: 1px solid grey;
+}
