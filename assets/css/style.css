@@ -8,6 +8,23 @@ html, body {
     margin-top: 15%;
 }
 
+nav {
+    background-color: pink;
+    top: -67px;
+    transition: top 0.3s;
+}
+
+#logo {
+    font-size: 30px;
+    font-family: "gothic-open-shaded", sans-serif;
+}
+
+#polyText {
+    font-size: 12px;
+    padding: 18px;
+    font-family: "forma-djr-deck", sans-serif;
+}
+
 h1 {
     font-family: "gothic-open-shaded", sans-serif;
     font-size: 100px;
@@ -22,8 +39,10 @@ li, a {
     display: inline-block;
     text-decoration: none;
     list-style-type: none;
+    border-bottom: 1px solid pink;
 }
 
 a:hover {
     border-bottom: 1px solid grey;
 }
+
