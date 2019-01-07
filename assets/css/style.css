@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     margin: 0;
-    background-color: pink;
+    background-color: #c0dfd9;
 }
 
 .container {
@@ -9,7 +9,7 @@ html, body {
 }
 
 nav {
-    background-color: pink;
+    background-color: #c0dfd9;
     top: -67px;
     transition: top 0.3s;
 }
@@ -28,6 +28,7 @@ nav {
 h1 {
     font-family: "gothic-open-shaded", sans-serif;
     font-size: 100px;
+    color: #3b3a36;
 }
 
 li, a {
@@ -39,10 +40,15 @@ li, a {
     display: inline-block;
     text-decoration: none;
     list-style-type: none;
-    border-bottom: 1px solid pink;
+    border-bottom: 1px solid #c0dfd9;
 }
 
 a:hover {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #b3c2bf;
+}
+
+#trivImg {
+    width: 126%;
+    margin-top: 61px;
 }
 
