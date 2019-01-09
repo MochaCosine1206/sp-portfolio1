@@ -19,15 +19,42 @@ nav {
     font-family: "gothic-open-shaded", sans-serif;
 }
 
-#polyText {
-    font-size: 12px;
-    padding: 18px;
+#polyText{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 8px;
+    padding: 5px 20px 0px 16px;
+    font-family: "forma-djr-deck", sans-serif;
+}
+
+#gifBankText {
+    margin-top: 6px;
+    margin-bottom: 0px;
+    font-size: 8px;
+    padding: 5px 20px 0px 16px;
     font-family: "forma-djr-deck", sans-serif;
 }
 
 h1 {
     font-family: "gothic-open-shaded", sans-serif;
     font-size: 100px;
+    color: #3b3a36;
+}
+
+h2 {
+    font-family: "gothic-open-shaded", sans-serif;
+    font-size: 60px;
+    color: #3b3a36;
+}
+
+h4 {
+    font-family: "forma-djr-deck", sans-serif;
+    font-size: 40px;
+    color: #3b3a36;
+}
+
+p {
+    font-family: "forma-djr-deck", sans-serif;
     color: #3b3a36;
 }
 
@@ -47,9 +74,22 @@ a:hover {
     border-bottom: 1px solid #b3c2bf;
 }
 
-#trivImg {
+#trivImg{
     width: 126%;
     margin-top: 71px;
     border-radius: 15px;
+}
+
+#gifBankImg {
+    position: relative;
+    right: 10%;
+    width: 144%;
+    margin-top: 71px;
+    border-radius: 15px;
+}
+
+.titleSVG {
+    position: relative;
+    top: 37px;
 }
 
