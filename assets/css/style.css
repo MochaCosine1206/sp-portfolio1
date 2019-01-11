@@ -70,6 +70,11 @@ li, a {
     border-bottom: 1px solid #c0dfd9;
 }
 
+li#sectionItems {
+    display: block;
+    list-style-type: circle;
+}
+
 a:hover {
     border-bottom: 1px solid #b3c2bf;
 }
@@ -81,15 +86,19 @@ a:hover {
 }
 
 #gifBankImg {
-    position: relative;
-    right: 10%;
-    width: 144%;
-    margin-top: 71px;
+    width: 108%;
+    margin-top: 101px;
+    border-radius: 15px;
+}
+
+#teamProjAImg{
+    width: 108%;
+    margin-top: 101px;
     border-radius: 15px;
 }
 
 .titleSVG {
     position: relative;
-    top: 37px;
+    top: 10%;
 }
 
