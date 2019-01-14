@@ -5,7 +5,8 @@ html, body {
 }
 
 .container {
-    margin-top: 15%;
+    margin-top: 9%;
+    margin-bottom: 112px;
 }
 
 nav {
@@ -18,6 +19,14 @@ nav {
     font-size: 30px;
     font-family: "gothic-open-shaded", sans-serif;
 }
+
+
+#skillsIcons svg {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
 
 #polyText{
     margin-top: 0px;
@@ -39,6 +48,7 @@ h1 {
     font-family: "gothic-open-shaded", sans-serif;
     font-size: 100px;
     color: #3b3a36;
+    margin-bottom: 5px;
 }
 
 h2 {
@@ -70,11 +80,6 @@ li, a {
     border-bottom: 1px solid #c0dfd9;
 }
 
-li#sectionItems {
-    display: block;
-    list-style-type: circle;
-}
-
 a:hover {
     border-bottom: 1px solid #b3c2bf;
 }
@@ -84,6 +89,52 @@ a:hover {
     margin-top: 71px;
     border-radius: 15px;
 }
+#trivRow {
+    margin-left: 0px;
+    margin-right: 0px;  
+}
+#trivImg2{
+    margin: auto;
+    width: 97%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+#textInset {
+    width: 100%;
+    height: 566px;
+    position: relative;
+    top: 12px;
+    border-radius: 15px;
+}
+
+#textInset p {
+    font-size: 14px;
+}
+
+#textInset li {
+    display: block;
+    list-style-type: circle;
+    border-bottom: none;
+    font-size: 14px;
+}
+
+#cardH1 {
+    font-size: 331%;
+    position: relative;
+    top: -11px;
+    margin-bottom: 5px;
+}
+
+#cardH4 {
+    font-family: "gothic-open-shaded", sans-serif;
+    color: #3b3a36;
+    font-size: 279%;
+    position: relative;
+    top: 8px;
+    margin-bottom: 33px;
+}
+
 
 #gifBankImg {
     width: 108%;
@@ -101,4 +152,109 @@ a:hover {
     position: relative;
     top: 10%;
 }
+
+
+#contact{
+    border-radius: 15px;
+}
+
+#contact h1 {
+    font-size: 331%;
+    position: relative;
+    top: 13px;
+    left: 13px;
+    margin-bottom: 5px;
+}
+
+#name{
+    width: 30%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+#email{
+    width: 57%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+#textInput{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+input[type=submit], input[type=reset] {
+    font-family: "gothic-open-shaded", sans-serif;
+    font-size: 32px;
+    background-color: #94F7FF;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+@media only screen and (max-width: 1040px) {
+
+    #cardH1 {
+        font-size: 234%;
+    }
+
+    #cardH4 {
+        font-size: 202%;
+    }
+  }
+
+  @media only screen and (max-width: 811px) {
+    #textInset {
+        height: 650px;
+    }
+
+    #cardH1 {
+        font-size: 177%;
+    }
+
+    #cardH4 {
+        font-size: 215%;
+    }
+
+  }
+
+  @media only screen and (max-width: 811px) {
+    #textInset {
+        height: 650px;
+
+  }
+
+  @media only screen and (max-width: 811px) {
+    #textInset {
+        height: 757px;
+
+  }
+
+@media only screen and (max-width: 610px) {
+    h1 {
+        font-size: 72px;
+
+    }
+  }
+
+  @media only screen and (max-width: 601px) {
+    #textInset {
+        height: 100%;
+    }
+
+    #cardH1 {
+        font-size: 166%;
+    }
+
+    #cardH4 {
+        font-size: 202%;
+    }
+  }
 
