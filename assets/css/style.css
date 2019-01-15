@@ -123,7 +123,8 @@ a:hover {
 
 #textInset p {
     font-size: 14px;
-    margin-top: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px
 }
 
 #textInset li {
@@ -222,11 +223,19 @@ input[type=submit], input[type=reset] {
     #cardH4 {
         font-size: 202%;
     }
+
+    h2 {
+        font-size: 52px;
+    }
   }
 
   @media only screen and (max-width: 904px) {
     #textInset {
         height: 613px;
+    }
+
+    h2 {
+        font-size: 40px;
     }
 }
 
@@ -243,6 +252,8 @@ input[type=submit], input[type=reset] {
         font-size: 215%;
     }
 
+    
+
   }
 
   @media only screen and (max-width: 811px) {
@@ -254,8 +265,8 @@ input[type=submit], input[type=reset] {
   @media only screen and (max-width: 754px) {
     #textInset {
         height: 765px;
-
   }
+}
 
 @media only screen and (max-width: 610px) {
     h1 {
@@ -275,6 +286,10 @@ input[type=submit], input[type=reset] {
 
     #cardH4 {
         font-size: 202%;
+    }
+
+    h2 {
+        font-size: 29px;
     }
   }
 
