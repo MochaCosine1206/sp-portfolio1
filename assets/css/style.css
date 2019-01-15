@@ -93,6 +93,19 @@ a:hover {
     margin-left: 0px;
     margin-right: 0px;  
 }
+
+#trivRow a {
+    border-bottom-color: white;
+    font-family: "forma-djr-deck", sans-serif;
+    font-weight: 700;
+    padding-left: 0px;
+    position: absolute;
+    bottom: 10px;
+}
+
+#trivRow a:hover {
+    border-bottom-color: #c0dfd9;
+}
 #trivImg2{
     margin: auto;
     width: 97%;
@@ -102,7 +115,7 @@ a:hover {
 
 #textInset {
     width: 100%;
-    height: 566px;
+    height: 574px;
     position: relative;
     top: 12px;
     border-radius: 15px;
@@ -110,6 +123,7 @@ a:hover {
 
 #textInset p {
     font-size: 14px;
+    margin-top: 8px;
 }
 
 #textInset li {
@@ -210,9 +224,15 @@ input[type=submit], input[type=reset] {
     }
   }
 
+  @media only screen and (max-width: 904px) {
+    #textInset {
+        height: 613px;
+    }
+}
+
   @media only screen and (max-width: 811px) {
     #textInset {
-        height: 650px;
+        height: 658px;
     }
 
     #cardH1 {
@@ -227,13 +247,13 @@ input[type=submit], input[type=reset] {
 
   @media only screen and (max-width: 811px) {
     #textInset {
-        height: 650px;
+        height: 658px;
 
   }
 
-  @media only screen and (max-width: 811px) {
+  @media only screen and (max-width: 754px) {
     #textInset {
-        height: 757px;
+        height: 765px;
 
   }
 
