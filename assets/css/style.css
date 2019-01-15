@@ -261,6 +261,7 @@ input[type=submit], input[type=reset] {
         height: 658px;
 
   }
+}
 
   @media only screen and (max-width: 754px) {
     #textInset {
