@@ -112,6 +112,8 @@ a#repo{
     bottom: 10px;
 }
 
+
+
 #trivRow a:hover {
     border-bottom-color: #c0dfd9;
 }
@@ -222,6 +224,23 @@ input[type=submit], input[type=reset] {
     margin: 4px 2px;
     cursor: pointer;
   }
+
+  #callMe h4 {
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+
+  #iconRow {
+    padding: 0 .75rem;
+    font-size: 81px;
+}
+
+.fab{
+    margin-right: 22px;
+    color: #3b3a36;
+}
 
 @media only screen and (max-width: 1040px) {
 
