@@ -152,10 +152,10 @@ a#repo{
     margin-bottom: 5px;
 }
 
-#cardH4 {
+#cardH4, #cardH4B {
     font-family: "gothic-open-shaded", sans-serif;
     color: #3b3a36;
-    font-size: 279%;
+    font-size: 268%;
     position: relative;
     top: 8px;
     margin-bottom: 33px;
@@ -251,6 +251,9 @@ input[type=submit], input[type=reset] {
     #cardH4 {
         font-size: 202%;
     }
+    #cardH4B {
+        font-size: 198%;
+    }
 
     h2 {
         font-size: 52px;
@@ -277,6 +280,9 @@ input[type=submit], input[type=reset] {
     }
 
     #cardH4 {
+        font-size: 215%;
+    }
+    #cardH4B {
         font-size: 215%;
     }
 
@@ -314,6 +320,10 @@ input[type=submit], input[type=reset] {
     }
 
     #cardH4 {
+        font-size: 202%;
+    }
+
+    #cardH4B {
         font-size: 202%;
     }
 
