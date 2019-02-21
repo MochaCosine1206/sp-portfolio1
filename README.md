@@ -1,2 +1,2 @@
 # sp-portfolio1
-Mid Semster Portfolio 
+Mid Semester Portfolio 
